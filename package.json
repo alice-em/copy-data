@@ -1,6 +1,6 @@
 {
   "name": "copy-data",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "A module to use to copy data for React, so you can then mutate them into ninja turtles or x-men.",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/alice-em/copy-data/issues"
   },
-  "homepage": "https://github.com/alice-em/copy-data#readme"
+  "homepage": "https://github.com/alice-em/copy-data#readme",
+  "dependencies": {}
 }

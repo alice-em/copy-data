@@ -13,16 +13,20 @@ const copyObject = (obj) => {
   return i;
 };
 
+const copyDeepObject = (obj) => {
+  const i = JSON.parse(JSON.stringify(obj))
+  return i;
+}
+
 const copyString = (string) => {
   const i = string.slice(0);
   return i;
 };
 
-const copy = {
-  array: copyArray,
-  func: copyFunction,
-  object: copyObject,
-  string: copyString
+export {
+  copyArray,
+  copyFunction,
+  copyObject,
+  copyDeepObject,
+  copyString
 };
-
-export default copy;

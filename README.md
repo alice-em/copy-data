@@ -13,14 +13,16 @@ const obj = {
   sushi: 'always'
 };
 
-const objCopy = copy.object(obj);
-console.log(obj === objCopy) // false
+const objCopy = copyObject(obj);
+console.log(obj === objCopy); // false
 ```
 
 Included methods:
 ```javascript
-copy.array(arr);
-copy.func(func);
-copy.object(obj);
-copy.string(string); // Still renders true, but I think it is because it checks value instead of memory location
+copyArray(item);
+copyFunction(item);
+copyObject(item);
+copyDeepObject(item);
+copyString(item);
+// Still renders true, but I think it is because it checks value instead of memory location
 ```
