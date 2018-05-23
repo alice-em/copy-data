@@ -1,5 +1,5 @@
 {
-  "name": "copy-data",
+  "name": "copydata",
   "version": "0.1.3",
   "description": "A module to use to copy data for React, so you can then mutate them into ninja turtles or x-men.",
   "main": "index.js",
