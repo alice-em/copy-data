@@ -4,7 +4,7 @@ npm install copy-data --save
 
 Example
 ```javascript
-const copy = require('copy-data');
+const {copyObject} = require('copy-data');
 const obj = {
   coffee: ['iced', 'double', 'soy', 'vanilla'],
   nachos: true,
